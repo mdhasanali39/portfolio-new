@@ -30,6 +30,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 190px;
+    margin-bottom: 150px;
 }
 
 .banner-container {
@@ -52,4 +53,22 @@
 }
 .banner_btn-bg{
     background-color: hsla(17, 88%, 54%, 1);
+}
+
+/* main section styling start  */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* failure section styling start  */
+.failure-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.failure-img-container, .failure-content-container{
+    flex-basis: 50%;
+}
+.failure-list{
+    list-style-image: url('../images/icons/check.svg');
 }
