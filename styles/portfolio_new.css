@@ -16,6 +16,8 @@
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .btn-clr-red {
@@ -58,11 +60,9 @@
     padding-left: 85px;
     margin: 20px 0;
 }
-
 .banner_btn-bg {
     background-color: hsla(17, 88%, 54%, 1);
 }
-
 /* main section styling start  */
 .main {
     max-width: 1040px;
@@ -203,6 +203,80 @@
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* footer section styling start  */
+.footer {
+    background-color: #151414;
+}
+
+.footer-section-container {
+    height: 80vh;
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.contacts,
+.subscribe-us {
+    flex-basis: 50%;
+}
+
+.contacts-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contacts-description {
+    width: 70%;
+}
+
+.contacts-email {
+    margin: 20px 0;
+}
+
+.social-links {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.social-links a img {
+    width: 48px;
+}
+
+.subscribe-us {
+    margin-right: -150px;
+}
+
+.subscribe-us input {
+    display: block;
+    padding: 21px;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.subscribe-us-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.subscribe-us-btn {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 24px;
 }
